@@ -1,0 +1,116 @@
+.image-section {
+  text-align: center;
+  position: relative;
+  top: 70px;
+}
+.image-section > h3 {
+  color: #fff;
+  font-family: monospace;
+}
+.image-section > img {
+  width: 97px;
+}
+
+/* Input */
+.input-section {
+  position: relative;
+  bottom: -60px;
+  text-align: center;
+}
+
+.input-section > input {
+  width: 268px;
+  padding: 8px;
+  border-radius: 7px;
+  /* outline: none; */
+  border: none;
+}
+.input-section > input:focus-visible {
+  outline: none;
+}
+
+.add-item {
+  color: #3b3737;
+  position: relative;
+  right: 21px;
+  cursor: pointer;
+}
+
+.edit-item{
+  position: relative;
+  right: 21px;
+  cursor: pointer;
+  color: green;
+}
+
+.check-list {
+  text-align: center;
+  margin-top: 94px;
+}
+
+.check-list > .btn {
+  cursor: pointer;
+  text-transform: uppercase;
+  padding: 9px;
+  border-radius: 8px;
+  border: none;
+}
+
+.check-list > .btn:hover {
+  background-color: purple;
+  color: white;
+  transition: all 0.5ms ease-in-out;
+  border: 1px solid #fff;
+}
+.input-section > .new-product {
+  background-color: #5858d3;
+  width: 286px;
+  margin: auto;
+  padding: 4px;
+  border-radius: 8px;
+  border: none;
+  height: 27px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  position: relative;
+  right: 8px;
+}
+
+
+.icon > .product {
+  color: #fff;
+  /* position: relative;
+  right: -58px; */
+}
+
+
+.icon{
+  width: 100%;
+  text-align: end;
+}
+
+.icon>.left{
+  position: relative;
+  right: 9px;
+}
+
+.new-product > h1 {
+  font-size: 12px;
+  color: #fff;
+}
+.new-product:hover {
+  background-color: #fff;
+}
+
+.new-product:hover > h1 {
+  color: #5b5454;
+}
+.new-product:hover .icon > .left {
+  color: green;
+}
+
+.new-product:hover .icon > .trash {
+  color: red;
+}

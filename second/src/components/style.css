@@ -1,0 +1,33 @@
+.button-group {
+  text-align: center;
+}
+.button-group > .button {
+  color: #fff;
+  width: 80px;
+  border: 1px solid white;
+  cursor: pointer;
+  margin: auto;
+  float: left;
+  position: relative;
+  top: 200px;
+  left: 41%;
+  padding: 11px;
+  border-radius: 5px;
+}
+.button-group > .button:hover {
+ border: 1px solid rgb(7, 240, 236);
+ transition: all 200ms ease-in-out ;
+ background-color:rgb(242, 172, 87);
+ color: black;
+ font-weight: 500;
+}
+.button-group > .incre {
+  margin-right: 43px;
+}
+p {
+  text-align: center;
+  color: #fff;
+  font-size: 31px;
+  position: relative;
+  top: 171px;
+}

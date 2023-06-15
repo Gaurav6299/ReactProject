@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: aliceblue;
+}
+
+/* NavBar */
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar > .btn-group {
+  position: relative;
+  top: 24px;
+  text-align: center;
+  border-radius: 18px;
+  margin-bottom: 34px;
+}
+.btn-group > .btn-item {
+  cursor: pointer;
+  background: #fff;
+  border: 1px solid #fff;
+  font-size: 16px;
+  font-family: system-ui;
+  color: #c9b9b9;
+  position: relative;
+  top: 5px;
+  padding: 13px 32px;
+  left: 10px;
+  box-shadow: inset 0px 0px 0px -15px rebeccapurple;
+}
+
+.btn-group > .active {
+ 
+  box-shadow: inset 0px -20px 0px -15px rebeccapurple;
+}
+
+.btn-item:hover,
+.btn-item:focus {
+  color: rebeccapurple;
+  box-shadow: inset 0px -20px 0px -15px rebeccapurple;
+}
+
+.btn-item:last-child {
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.btn-item:first-child {
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+
+.btn-item:after {
+  content: " ";
+  transition: all 200ms ease-out;
+}
+
+.card-section {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(300px, 500px));
+  grid-gap: 2px;
+  justify-content: space-around;
+}
+
+.cards-container {
+  background-color: #ffff;
+  border-radius: 4px;
+  box-shadow: 0px 4px 13px gray;
+  margin-bottom: 20px;
+  padding: 15px;
+  margin-top: 20px;
+  margin-left: 20px;
+  padding: 29px;
+  padding-bottom: 55px;
+}
+
+.card-data {
+  display: flex !important;
+  flex-direction: column;
+}
+.breakfast {
+  color: #c9b9b9;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: math;
+  text-transform: uppercase;
+}
+
+.card-number {
+  border-radius: 50%;
+  color: black;
+  font-size: 17px;
+  font-weight: 600;
+  width: 26px;
+  text-align: center;
+  height: 26px;
+  border: 2px solid #9f9292;
+}
+
+.read {
+  text-transform: uppercase;
+  color: black;
+  font-weight: 800;
+  font-family: initial;
+  cursor: pointer;
+  top: -3px;
+  left: 88%;
+  position: relative;
+}
+
+.order-now {
+  border: 2px solid #9f9292;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 5px;
+  text-align: center;
+  color: #9f9292;
+  font-weight: 400;
+  border-radius: 4px;
+  float: right;
+}
+
+.cards {
+  position: relative;
+  bottom: 13px;
+}
+.cards img {
+  width: 369px;
+  height: 274px;
+}
+
+.card-title {
+  font-size: 38px;
+  font-family: auto;
+}
+
+.line {
+  width: 285px;
+  height: 1px;
+  background: #9f9292;
+  position: relative;
+  top: 8px;
+}
+
+.description {
+  font-size: 11px;
+  font-family: inherit;
+}
