@@ -12,6 +12,7 @@ Here I have made Four React project.
 - Counting App
 - Chats App
 - Todos App
+- Weather App
 
 
 
