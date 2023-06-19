@@ -1,0 +1,144 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css);
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  background-color: rgb(37, 36, 36);
+}
+
+/* Button and Search section */
+.search-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 131px;
+}
+
+.search-input > .search {
+  width: 233px;
+  padding: 7px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border: none;
+}
+.search-input > .search:focus-visible {
+  outline: none;
+}
+
+.search-section > .search-button {
+  width: 86px;
+  height: 29px;
+  background: #27d0c0;
+  cursor: pointer;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  text-align: center;
+}
+.search-button>button{
+  width: 86px;
+  height: 29px;
+  background: #27d0c0;
+  cursor: pointer;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  text-align: center;
+  border: none;
+}
+
+/*----------waether card Section---------- */
+.weather-card {
+  background: #ffff;
+  height: 305px;
+  width: 476px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border-radius: 16px;
+  box-shadow: 3px 0px 0px -3px #f6f2f2;
+  margin-bottom: 20px;
+}
+
+.weather-icon {
+  text-align: center;
+}
+.weather-icon > i {
+  font-size: 72px;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+.weather-temp {
+  display: flex;
+}
+
+.weather-temp > .temp {
+  background: black;
+  height: 119px;
+  width: 489px;
+}
+.weather-temp > .temp > .temp-count {
+  font-size: 48px;
+  position: relative;
+  top: 15px;
+  color: #ffff;
+}
+.temp > .temp-count > .degree {
+  margin-left: -9px;
+}
+
+.temp > .weather-type {
+  text-transform: uppercase;
+  color: #ffff;
+  font-size: 31px;
+  margin-left: 23px;
+  font-weight: 100;
+}
+.weather-type > .city-name {
+  position: relative;
+  font-size: 11px;
+  left: 169px;
+  bottom: 10px;
+  text-transform: capitalize;
+  font-weight: 100;
+  color: #ffff;
+}
+.weather-temp > .date-time {
+  background: #22d9a6;
+  width: 200px;
+}
+
+.date-time-section {
+  text-align: center;
+  margin-top: 28px;
+}
+.date-time-section > .date {
+  color: #fff;
+  font-size: 23px;
+}
+.date-time-section > .time {
+  color: #fff;
+  font-size: 23px;
+}
+.two-sided-data > p>.wi {
+  color: #10ddc7 !important;
+  margin-top: 20px !important;
+  margin-left: 20px;
+}
+.extra-temp{
+  display: flex;
+  margin-top: 8px;
+}
+.extra-temp > .two-sided-data {
+  display: flex;
+  margin-right: 32px;
+}
+
+.two-sided-data > .left-side-temp {
+  font-size: 11px;
+  position: relative;
+  top: 13px;
+  left: 20px;
+  font-weight: 400;
+}
