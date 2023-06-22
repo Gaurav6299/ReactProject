@@ -92,14 +92,14 @@ Insert gif or link to demo
 Create React App with npx
 
 ```bash
- npx create-reacta-app restaurant
+ npx create-react-app restaurant
  cd restaurant
 ```
 
 Create React App with npm
 
 ```bash
- npm create-reacta-app restaurant
+ npm create-react-app restaurant
  cd restaurant
 ```
 
