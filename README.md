@@ -12,7 +12,6 @@ Here I have made Four React project.
 - Counting App
 - Chats App
 - Todos App
-- Weather App
 
 
 
@@ -82,24 +81,33 @@ export default Navbar
 ```
 
 
-## 
+## Project 2
+- Counting App
+Here I have Added two buttons  Increment and Decrement which is used to increment the count and decrement the count.
 
-Insert gif or link to demo
+
+## Projects Screenshots🚀
+
+![App Screenshot](https://github.com/Gaurav6299/ReactProject/blob/master/ScreenShots/inde1.PNG?raw=true)
 
 
+## Functionality
+- Hooks(useState,useEffect,useReducer)
+- Props (Parent Child Communication)
+- Components
 ## Installation 👍 
 
 Create React App with npx
 
 ```bash
- npx create-react-app restaurant
+ npx create-reacta-app restaurant
  cd restaurant
 ```
 
 Create React App with npm
 
 ```bash
- npm create-react-app restaurant
+ npm create-reacta-app restaurant
  cd restaurant
 ```
 
@@ -126,3 +134,29 @@ Here I am using two snippets for react.
 - ES7+ React/Redux/React-Native snippets
 - JavaScript (ES6) code snippets
     
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/Gaurav6299/ReactProject.git
+```
+
+Go to the project directory
+
+```bash
+  cd my-project
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run start
+```
+
