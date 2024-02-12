@@ -100,7 +100,7 @@ Here I have Added two buttons  Increment and Decrement which is used to incremen
 Create React App with npx
 
 ```bash
- npx create-reacta-app restaurant
+ npx create-react-app restaurant
  cd restaurant
 ```
 
