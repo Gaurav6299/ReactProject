@@ -107,7 +107,7 @@ Create React App with npx
 Create React App with npm
 
 ```bash
- npm create-reacta-app restaurant
+ npm create-react-app restaurant
  cd restaurant
 ```
 
