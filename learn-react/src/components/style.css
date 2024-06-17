@@ -1,0 +1,118 @@
+.section{
+  display: grid;
+    grid-template-columns: repeat(4, 1f);
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2px;
+    position: relative;
+    bottom: 20px;
+}
+.card-container {
+  margin: auto;
+  margin-top: 54px;
+}
+.card-container .card {
+  width: 318px;
+  box-shadow: 10px 10px solid black;
+  box-shadow: 2px 0px 14px #8f8989;
+  padding: 20px;
+}
+
+.card-container .number{
+  border-radius: 50%;
+  border: 2px solid #978e8e;
+  padding-left: 6px;
+  padding-right: 6px;
+  font-size: 15px;
+  padding-top: 3px;
+  padding-bottom: 1px;
+}
+.food-type{
+  color: #9a9696;
+    font-weight: 500;
+    line-height: 0px;
+}
+
+.card-body h2{
+  line-height: 10px;
+  font-family: auto;
+}
+
+.desc{
+  position: relative;
+    top: -9px;
+    font-size: 11px;
+}
+.hr-line{
+  width: 200px;
+    position: relative;
+    right: 57px;
+    /* background: #9a3939; */
+    border: 1px solid #8d8686;
+}
+
+.read-more
+{
+  float: right;
+    position: relative;
+    bottom: 22px;
+    color: black;
+    font-weight: 600;
+}
+.section .image{
+  width: 100%;
+  border-radius: 4px;
+}
+.btn{
+  padding: 5px;
+  color: #645f5f;
+  border-radius: 7px;
+  border: 1px solid #645f5f;
+  cursor: pointer;
+  position: relative;
+  top: 14px;
+}
+
+
+/* Navbar */
+.btn-group{
+  text-align: center;
+  position: relative;
+  top: 20px;
+  margin-bottom: 28px;
+  right: 47px;
+}
+.btn-category__active{
+  padding: 13px;
+  border: 1px solid #fff;
+  border-bottom-color: 1px solid purple;
+  border-bottom-color: purple;
+  color: purple;
+  font-weight: bold;
+  border-bottom-width: 3px;
+  width: 103px;
+  cursor: pointer;
+  border-bottom-left-radius: 16px;
+  border-top-left-radius: 16px;
+  cursor: pointer;
+  background-color: #fff;
+  
+}
+.btn-category{
+  padding: 13px;
+  border: 1px solid #fff;
+    width: 103px;
+    cursor: pointer;
+    background:#fff;
+
+}
+
+.btn-category:hover{
+  border-bottom-color: 1px solid purple;
+  border-bottom-color: purple;
+  color: purple;
+  font-weight: bold;
+  border-bottom-width: 3px;
+  width: 103px;
+  border-bottom-left-radius: 16px;
+  border-top-left-radius: 16px;
+}

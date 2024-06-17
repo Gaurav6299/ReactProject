@@ -3,6 +3,7 @@ import "./style.css"
 const EffectHooks = () => {
   const [myData, setMyData] = useState(0);
 
+  // It will call every time when changes will happen in the component
   useEffect(() => {
     document.title = `Chats(${myData})`
   } )

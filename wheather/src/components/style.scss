@@ -1,0 +1,118 @@
+// weather icon Cdn
+@import url("https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.12/css/weather-icons.min.css");
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 57px;
+
+  input {
+    padding: 6px;
+    width: 278px;
+    border-top-left-radius: 9px;
+    border-bottom-left-radius: 9px;
+    border: none;
+
+    &:focus-visible {
+      outline: none;
+    }
+  }
+
+  .btn {
+    padding: 6px;
+    width: 96px;
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
+    border-top: none;
+    border-bottom: none;
+    cursor: pointer;
+    background: #4babf7;
+    color: #fff;
+  }
+}
+
+.weather-info {
+  display: flex;
+  .date {
+    background: #10e9d0;
+    color: #fff;
+    width: 177px;
+    p{
+      font-size: 26px;
+    position: relative;
+    left: 27px;
+    top: 7px;
+    }
+  }
+}
+
+.weather-card {
+  width: 580px;
+  height: 451px;
+  background: #fff;
+  margin: auto;
+  margin-top: 41px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 8px 3px black;
+  .temprature {
+    display: flex;
+    padding: 20px;
+    background: black;
+    color: #fff;
+    font-size: 47px;
+    width: 362px;
+    .degree {
+      position: relative;
+      right: 22px;
+    }
+    h2 {
+      font-size: 31px;
+      line-height: 0px;
+    }
+
+    .city {
+      font-size: 15px;
+    position: relative;
+    bottom: 38px;
+    }
+  }
+}
+
+.weather-icons {
+  text-align: center;
+  .wi {
+    font-size: 73px;
+    margin-top: 55px;
+    margin-bottom: 47px;
+  }
+}
+
+.category{
+  display: grid;
+  .temp-icons{
+    display: flex;
+    margin-top: 32px;
+    margin-left: 18px;
+    margin-right: 27px;
+    p{
+     
+      i{
+        font-size: 27px;
+      color: #22c8c8;
+      }
+    }
+    .weather_temp{
+      position: relative;
+      left: 20px;
+    bottom: 7px;
+    }
+
+  }
+  .min-temp
+  {
+    display: flex;
+  }
+}
+
+

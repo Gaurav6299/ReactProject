@@ -4,7 +4,7 @@ import EffectHooks from './components/EffectHooks';
 function App() {
   return (
     // <Hooks/>
-    <EffectHooks />
+    <Hooks />
   );
 }
 

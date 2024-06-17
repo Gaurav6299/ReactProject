@@ -1,0 +1,175 @@
+$color: red;
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+
+.card-body {
+  h3 {
+    color: $color;
+  }
+  .btn {
+    &:hover {
+      background-color: black;
+      color: #fff;
+    }
+  }
+  img {
+    transition: transform 0.3s ease;
+    &:hover {
+      // width: 100%;
+      transform: scale(1.2);
+    }
+  }
+}
+
+// Contact Us
+
+.contact-section {
+  background: url(../../public/images/contact-us.jpg);
+  background-size: cover; /* Ensures the background covers the entire section */
+  background-position: center; /* Centers the background image */
+  background-repeat: no-repeat; /* Prevents the background from repeating */
+  height: 664px; /* Example height for the section */
+
+  .row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 101px;
+    flex-direction: column;
+
+    p {
+      width: 285px;
+      color: #fff;
+      font-size: 14px;
+      text-align: center;
+      font-family: cursive;
+    }
+    input {
+      &:focus-visible {
+        outline: none;
+      }
+    }
+
+    textarea:focus-visible {
+      outline: none;
+    }
+
+    .info {
+      input {
+        padding: 8px;
+        width: 142px;
+        border: 1px solid #fff;
+        margin-right: 17px;
+      }
+    }
+    h2 {
+      background: yellow;
+      width: 143px;
+      font-size: 19px;
+      font-family: cursive;
+      font-weight: 300;
+      text-align: center;
+    }
+    .subject input {
+      padding: 8px;
+      width: 318px;
+      margin-top: 10px;
+      border: 1px solid #fff;
+      margin-right: 17px;
+    }
+    .textarea {
+      margin-top: 10px;
+      margin-right: 17px;
+      textarea {
+        border: 1px solid #fff;
+      }
+    }
+    .btn {
+      padding: 8px;
+      width: 337px;
+      background: yellow;
+      border: 1px solid yellow;
+      margin-right: 19px;
+      cursor: pointer;
+    }
+  }
+
+  .get-in-touch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 124px;
+    flex-direction: column;
+    h2 {
+      background: #060600;
+      width: 97px;
+      font-size: 21px;
+      font-family: cursive;
+      font-weight: 300;
+      text-align: center;
+      color: #fff;
+    }
+    p {
+      width: 285px;
+      color: #fff;
+      font-size: 14px;
+      text-align: center;
+      font-family: cursive;
+    }
+    .connect-wth {
+      width: 172px;
+    }
+    .icons {
+      display: flex;
+      gap: 18px;
+      i {
+        cursor: pointer;
+      }
+    }
+    .para {
+      font-weight: bold;
+    }
+    h3 {
+      color: yellow;
+    }
+  }
+}
+
+// About Page
+.section {
+  .about-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    color: #ffff;
+    font-weight: normal;
+    h2{
+      color: #ffff;
+      font-family: "Alex Brush", handwriting;
+      line-height: 1rem;
+      font-size: 11vw;
+      font-weight: normal;
+    }
+    p{
+      color: #fff;
+      position: relative;
+      bottom: 78px;
+      font-weight: 600;
+    }
+  }
+  .banner_img {
+    background: url(../../public/images/breakfast.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 100vh;
+    opacity: 0.9;
+  }
+}

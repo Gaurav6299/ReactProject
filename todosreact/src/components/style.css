@@ -1,0 +1,84 @@
+.main-section{
+  display: block;
+    width: 100%;
+}
+
+.sub-body{
+  display: block;
+    margin: auto;
+    width: 200px;
+    margin-top: 13%;
+}
+.main-section .image{
+  width: 67px;
+    margin-left: 32px;
+}
+
+.sub-body p{
+  color: #fff;
+}
+
+.sub-body input{
+  padding: 7px;
+  width: 218px;
+  position: relative;
+  right: 44px;
+  border-radius: 6px;
+  border: 1px solid #fff;
+}
+.sub-body input:focus-visible{
+  outline: none;
+}
+
+.icon-btn{
+  position: relative;
+  bottom: 27px;
+  right: le;
+  left: 167px;
+  cursor: pointer;
+}
+
+
+
+.check-list{
+  padding: 7px;
+  margin-left: 28px;
+  cursor: pointer;
+}
+
+.show-items{
+  background: #fff;
+    width: 233px;
+    position: relative;
+    right: 42px;
+    bottom: 20px;
+    border-radius: 5px;
+    background: blue;
+    color: #fff;
+}
+
+.each-item{
+  height: 35px;
+  font-size: 12px;
+  position: relative;
+  top: 7px;
+  padding-left: 4px;
+  
+}
+.show-items:hover{
+  background-color: #fff;
+  color: black;
+}
+
+.icons{
+  position: relative;
+    bottom: 21px;
+    left: 85%;
+    bottom: 27px;
+    width: 32px;
+    cursor: pointer;
+}
+
+.edit-btn{
+  letter-spacing: 3px;
+}

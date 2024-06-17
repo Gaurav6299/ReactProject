@@ -1,0 +1,52 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+.container {
+  text-align: center;
+  margin-top: 49px;
+  margin-bottom: 22px;
+}
+.container > h2 {
+  font-size: 26px;
+}
+.container > p {
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.btn-style {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  position: relative;
+  bottom: 17px;
+}
+
+.btn-style > .copy {
+  background-color: #19a463;
+  padding: 7px;
+  width: 72px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.btn-style > .start-list {
+  width: 102px;
+  cursor: pointer;
+  margin-left: 50px;
+  margin-right: 4px;
+}
+
+.main-container {
+  background: #fff;
+  width: 549px;
+  height: 249px;
+  margin: auto;
+  position: relative;
+  top: 29px;
+  box-shadow: 1px 1px 4px 3px #cec7c7;
+  border-radius: 7px;
+}
